@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'brcobranca', git: 'https://github.com/akretion/brcobranca.git' 
+gem 'brcobranca', git: 'https://github.com/netosjb/brcobranca.git' 
 gem 'grape'
 gem 'puma'
