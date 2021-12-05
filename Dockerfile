@@ -11,7 +11,7 @@ RUN apt-get update
 RUN apt-get install -y --no-install-recommends build-essential ghostscript git ruby-dev bundler
 
 # throw errors if Gemfile has been modified since Gemfile.lock
-RUN bundle config --global frozen 1
+RUN bundle config --delete frozen
 RUN bundle install
 
 EXPOSE 9292

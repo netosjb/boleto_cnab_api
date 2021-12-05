@@ -1,8 +1,9 @@
 GIT
-  remote: https://github.com/akretion/brcobranca.git
-  revision: 2f058c3f5c38864a321697613eb5db6f2b2309a5
+  remote: https://github.com/netosjb/brcobranca.git
+  revision: 06e1a0595faa849ecc1e5ff309293bf8037a54e0
+  branch: 'banco-ailos'
   specs:
-    brcobranca (9.2.4)
+    brcobranca (10)
       parseline (~> 1.0.3)
       rghost (~> 0.9)
       rghost_barcode (~> 0.9)
